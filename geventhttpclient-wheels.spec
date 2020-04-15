@@ -4,12 +4,12 @@
 #
 Name     : geventhttpclient-wheels
 Version  : 1.3.1.dev3
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/1a/49/558a102f9f4dab1303356b997fb39b5669455e3ef243c7feedec3c1bf274/geventhttpclient-wheels-1.3.1.dev3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1a/49/558a102f9f4dab1303356b997fb39b5669455e3ef243c7feedec3c1bf274/geventhttpclient-wheels-1.3.1.dev3.tar.gz
 Summary  : Pre-built wheels for geventhttpclient
 Group    : Development/Tools
-License  : -MIT MIT
+License  : MIT
 Requires: geventhttpclient-wheels-license = %{version}-%{release}
 Requires: geventhttpclient-wheels-python = %{version}-%{release}
 Requires: geventhttpclient-wheels-python3 = %{version}-%{release}
@@ -83,7 +83,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1586981039
+export SOURCE_DATE_EPOCH=1586981369
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
